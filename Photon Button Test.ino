@@ -10,8 +10,6 @@ int led1 = A0;
 int led2 = A1;
 int t1 = 500;
 
-
-
 void setup() {
   pinMode(led1, OUTPUT);
   pinMode(led2, OUTPUT);
