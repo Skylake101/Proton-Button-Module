@@ -1,3 +1,11 @@
+/*
+ *Author: Luke Carlson
+ *I'm learning the photon hardware one step at a time, this program uses buttons and switches
+ *
+ * While the left switch is pressed, the LEDs alternate
+ * While the right button is pressed, the LEDs flash simultaneously at random intervals
+ * The LED's stay lit while both are pressed
+ */
 int led1 = A0;
 int led2 = A1;
 int t1 = 500;
